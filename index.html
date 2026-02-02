@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE SINGULARITY</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&dis</style>
+</head>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小黑苹果软件站 - 我们一直在努力</title>
+    <style>
+        :root {
+            --primary-color: #0071e3;
+            --bg-color: #f5f5f7;
+            --card-bg: rgba(255, 255, 255, 0.8);
+            --text-main: #1d1d1f;
+            --text-secondary: #86868b;
+            --accent-color: #f5f5f7;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 20px;
+            background-image: radial-gradient(circle at 50% 0%, #e8e8ed 0%, #f5f5f7 100%);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Header Area */
+        header {
+            text-align: center;
+            padding: 60px 0 40px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            letter-spacing: -0.015em;
+            margin-bottom: 10px;
+        }
+
+        .slogan {
+            color: var(--primary-color);
+            font-weight: 500;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        /* Card Style */
+        .card {
+            background: var(--card-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 24px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-2px);
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        h2::before {
+            content: "";
+            width: 4px;
+            height: 20px;
+            background: var(--primary-color);
+            margin-right: 12px;
+            border-radius: 2px;
+        }
+
+        .description {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+        }
+
+        /* Links/Buttons */
+        .link-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 15px;
+        }
+
+        .download-link {
+            display: flex;
+            flex-direction: column;
+            padding: 15px;
+            background: #fff;
+            border-radius: 12px;
+            text-decoration: none;
+            color: var(--text-main);
+            border: 1px solid #e5e5e7;
+            transition: all 0.2s;
+        }
+
+        .download-link:hover {
+            border-color: var(--primary-color);
+            background: #fafafa;
+        }
+
+        .link-title {
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 4px;
+        }
+
+        .link-note {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .password-tag {
+            display: inline-block;
+            font-size: 0.75rem;
+            background: #f2f2f7;
+            padding: 2px 8px;
+            border-radius: 4px;
+            margin-top: 8px;
+            width: fit-content;
+        }
+
+        /* Info Section */
+        .info-bar {
+            font-size: 0.9rem;
+            background: rgba(0, 113, 227, 0.05);
+            border-left: 4px solid var(--primary-color);
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+
+        .contact-list {
+            margin-bottom: 10px;
+        }
+
+        .contact-list span {
+            margin: 0 10px;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            header h1 { font-size: 2rem; }
+            .card { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>小黑苹果软件站</h1>
+        <p class="slogan">“ 我们一直在努力！ ”</p>
+    </header>
+
+    <div class="info-bar">
+        <strong>温馨提示：</strong> 本站提供苹果设备下载安装与服务。如有问题，请联系B站“<a href="https://space.bilibili.com/660640039" style="color:var(--primary-color); text-decoration:none;">小黑</a>”或发送邮件(xhiosapp@163.com)。
+    </div>
+
+    <section class="card">
+        <h2>自创网盘专区</h2>
+        <p class="description">本站自创网盘，持续更新，资源均来自网络搜集，欢迎投稿。</p>
+        <div class="link-grid">
+            <a href="https://xhiosapp.lanzoul.com/b00yau4v5g" class="download-link">
+                <span class="link-title">爱思下载</span>
+                <span class="link-note">官方资源高速下载</span>
+                <span class="password-tag">密码：1145</span>
+            </a>
+            <a href="https://xhiosapp.lanzoul.com/b00yau4v3e" class="download-link">
+                <span class="link-title">签名应用</span>
+                <span class="link-note">已处理签名的APP资源</span>
+                <span class="password-tag">密码：1145</span>
+            </a>
+        </div>
+    </section>
+
+    <section class="card">
+        <h2>非自创网盘专区</h2>
+        <p class="description">以下资源来自第三方合作或网络搜集，本站不负责维护。</p>
+        <div class="link-grid">
+            <a href="https://myios.lanzoum.com/s/mvp" class="download-link">
+                <span class="link-title">4 - 6s 专用下载</span>
+                <span class="link-note">含iOS 6.13签名应用</span>
+                <span class="password-tag">密码：2023</span>
+            </a>
+            <a href="https://4svip.lanzoui.com/s/2024a" class="download-link">
+                <span class="link-title">6s以下 专用下载</span>
+                <span class="link-note">资源较杂，按需下载</span>
+                <span class="password-tag">密码：5236</span>
+            </a>
+            <a href="https://lanzoux.com/b01bojzyf" class="download-link">
+                <span class="link-title">应用游戏下载</span>
+                <span class="link-note">注：大多数应用未签名</span>
+                <span class="password-tag">建议自行签名</span>
+            </a>
+            <a href="https://wwrd.lanzoum.com/b00zxpy0ti" class="download-link">
+                <span class="link-title">数码世界</span>
+                <span class="link-note">超多经典应用，含签名应用</span>
+                <span class="password-tag">密码：conw</span>
+            </a>
+        </div>
+    </section>
+
+    <section class="card">
+        <h2>交换链接</h2>
+        <p class="description" style="color: #ff3b30;">⚠️ 提示：前往站外链接时，请注意网址安全！</p>
+        <div class="link-grid">
+            <a href="#https://qwipa.mysxl.cn/" class="download-link">
+                <span class="link-title">权威软件站</span>
+                <span class="link-note">深度合作伙伴</span>
+            </a>
+            <a href="https:// ios.cilici.cn" class="download-link">
+                <span class="link-title">刺狸刺</span>
+                <span class="link-note">高速下载</span>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="contact-list">
+            <span>B站：小黑打电动</span> 
+            <br>
+            <span>邮箱：xhiosapp@163.com</span> 
+            <br>
+            <span>QQ群：1014632108</span>
+            <br>
+            <span>设计：647065257</span>
+        </div>
+        <p>所有数据由第三方提供 本站不参与任何的制作</p>
+        <p style="margin-top:10px; opacity:0.6;">&copy; 2026 黑马程序员</p>
+    </footer>
+</div>
+
+</body>
+</html>
